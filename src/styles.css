@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('assets/styles/layout.css');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* border: solid 1px black; */
+}
+
+
+
+body{
+    background-color: var(--bg-secondary);
+}
+
+:root{
+
+    /* COLORES */
+
+    --bg-primary: rgb(10, 164, 224);
+    --bg-secondary: rgb(229, 235, 238);
+    --bg-tertiary: rgb(4, 78, 107);
+
+    --txt-primary: rgb(49, 49, 49);
+    --txt-secondary: rgb(83, 83, 83);
+    --txt-link: rgb(0, 87, 128);
+
+}
